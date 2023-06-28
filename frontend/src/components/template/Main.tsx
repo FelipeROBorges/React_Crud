@@ -2,10 +2,10 @@ import React from 'react'
 import './Main.css'
 import Header from './Header'
 
-const Main = () => {
+const Main = (props: any) => {
   return (
     <>
-        <Header/>
+        <Header {...props}/>
         <main className='content'>
             Conteúdo
         </main>

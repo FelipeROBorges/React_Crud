@@ -1,11 +1,13 @@
 import React from 'react'
 import './Logo.css' 
-import '../../assets/images/logo.jpg'
+import logo_image from '../../assets/images/logo.png'
 
 function logo() {
   return (
-    <aside className='logo'>
-        Logo
+    <aside className='logo bg-black flex justify-center items-center'>
+        <a href="/" className='logo bg-black flex justify-center items-center'>
+          <img src={logo_image} alt="logo" className='pr-0 pl-3.9 w-5/12'/>
+        </a>
     </aside>
   )
 }

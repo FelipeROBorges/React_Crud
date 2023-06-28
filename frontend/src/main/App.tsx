@@ -11,7 +11,7 @@ const App = () => {
     <div className='app'>
         <Logo/>
         <Nav/>
-        <Main/>
+        <Main icon='home' title='Início' subtitle='Segundo Projeto do capítulo de React.'/>
         <Footer/>
     </div>
   )
