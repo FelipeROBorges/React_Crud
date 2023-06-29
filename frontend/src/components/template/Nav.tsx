@@ -1,17 +1,18 @@
 import React from 'react'
 import './Nav.css'
 import FaIcon from './FaIcon'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <aside className='menu-area bg-black'>
       <nav className='menu'>
-        <a href="#/">
+        <Link to="/">
           <FaIcon icon='home' title='Início'/> 
-        </a>
-        <a href="#/users">
+        </Link>
+        <Link to="/users">
           <FaIcon icon='user' title='Usuário'/> 
-        </a>
+        </Link>
       </nav>
     </aside>
   )
