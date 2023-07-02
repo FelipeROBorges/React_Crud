@@ -1,2 +1,2 @@
 # React_Crud
-CRUD em React
+CRUD React using Axios and TailwindCSS
